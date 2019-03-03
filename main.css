@@ -54,6 +54,7 @@ main {
 }
 
 h1 {
+    font-weight: normal;
     text-align: center;
     animation: mainTextAnimation .7s forwards 0s ease;
     font-size: 30px;
@@ -99,8 +100,8 @@ nav {
     margin-right : auto;
     margin-left : auto;
     width: auto;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
     font-size: 22px;
     display: inline-block;
 }
