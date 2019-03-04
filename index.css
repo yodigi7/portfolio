@@ -1,0 +1,79 @@
+@keyframes mainTextAnimation{
+    0%{
+        transform: scale(0);
+        }
+    100%{
+        transform: scale(1);
+        }
+}
+
+@keyframes ctaAnimation{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+        }
+}
+
+main {
+    position: relative;
+    top: 20%;
+    padding-top: 75px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+    animation: mainTextAnimation .7s forwards 0s ease;
+    font-size: 30px;
+    padding-bottom: .5em;
+}
+
+#anthony-span {
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.cta-list {
+    transform: translateX(-70%);
+    animation: ctaAnimation 1s forwards .7s ease-out;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.cta-li {
+    display: inline-block;
+    padding: 0 .5em;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        top: 23%;
+        padding-top: 89px;
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    #anthony-span {
+        font-size: 85px;
+    }
+
+    .cta-li 
+        padding: 0 1em;
+    }
+
+    #github {
+        height: 60px;
+    }
+
+    #linkedin {
+        height: 60px;
+    }
+}

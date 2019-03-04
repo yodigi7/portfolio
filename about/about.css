@@ -1,0 +1,52 @@
+section {
+    vertical-align: top;
+    text-align: left;
+    display: inline-block;
+    padding: 0 10%;
+    font-size: 23px;
+    padding-bottom: 9%;
+}
+
+#about-me-text {
+    font-size: 16px;
+}
+
+h1 {
+    padding-top: 2%;
+}
+
+.main-content li {
+    list-style-type: disc;
+    margin-left: 21px;
+    font-size: 20px;
+}
+
+.main-content {
+    text-align: center;
+    margin: auto;
+}
+
+@media only screen and (min-width: 786px) {
+    section {
+        padding-bottom: 6%;
+    }
+
+    #about-me-text {
+        font-size: 20px;
+    }
+
+    h1 {
+        padding-top: 2%;
+    }
+
+    .main-content li {
+        list-style-type: disc;
+        margin-left: 21px;
+        font-size: 20px;
+    }
+
+    .main-content {
+        text-align: center;
+        margin: auto;
+    }
+}

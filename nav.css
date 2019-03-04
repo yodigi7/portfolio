@@ -1,0 +1,60 @@
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: var(--grey-color); /* Old browsers */
+    background: -moz-linear-gradient(top, var(--grey-color) 75%, var(--black-color) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, var(--grey-color) 75%,var(--black-color) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, var(--grey-color) 75%,var(--black-color) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    clear: both;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.nav-li:hover {
+    font-weight: bold;
+    background: var(--hover-grey); /* Old browsers */
+    background: -moz-linear-gradient(top, var(--hover-grey) 75%, var(--black-color) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, var(--hover-grey) 75%,var(--black-color) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, var(--hover-grey) 75%,var(--black-color) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.nav-li {
+    margin: 0 auto;
+    width: auto;
+    font-size: 22px;
+    display: inline-block;
+}
+
+.nav-a {
+    margin-right : auto;
+    margin-left : auto;
+    width: auto;
+    padding-top: 19px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+#nav-span-me {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    nav {
+        text-align: right;
+    }
+
+    .nav-li {
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 34px;
+        display: inline-block;
+    }
+
+    #nav-span-me {
+        display: inline-block;
+    }
+}

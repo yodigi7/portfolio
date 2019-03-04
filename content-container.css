@@ -1,0 +1,55 @@
+:root {
+    --white-color: #EEEEEE;
+    --red-color: #ff4444;
+    --black-color: #010101;
+    --grey-color: #333333;
+    --hover-grey: #444444;
+}
+
+main {
+    position: relative;
+    padding: 0 0;
+    display: block;
+    margin-top: 75px;
+    background-color: rgb(238, 238, 238, .8);
+    color: var(--black-color);
+}
+
+h2 {
+    color: var(--black-color);
+}
+
+.project-details ul {
+    padding-bottom: 15px;
+}
+.project-details ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.project-details a {
+    word-break: break-all;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        margin-top: 89px;
+        padding: 0 10%;
+    }
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .project {
+        font-size: 20px;
+    }
+}

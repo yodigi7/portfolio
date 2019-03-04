@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anthony Buchholz, an AI consultant with full stack experience and a lot of personal projects">
+    <meta name="keywords" content="AI, consultant, Anthony Buchholz, Java, Python, programming, programmer, full stack, backend, frontend, artificial intelligence, developer, software developer">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <base href="/portfolio/" target="_blank">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/nav.css">
+    <link rel="stylesheet" href="/portfolio/main.css">
+    <link rel="stylesheet" href="/portfolio/nav.css">
+    <title>Anthony Buchholz</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="white-text nav-li"><a class="nav-a" href="/portfolio" target="_self">Home</a></li>
+            <li class="white-text nav-li"><a class="nav-a" href="" target="_self">Projects</a></li>
+            <li class="white-text nav-li"><a class="nav-a" href="/portfolio/about/about.html" target="_self">About<span id="nav-span-me">&nbsp;Me</span></a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>My Projects</h1>
+        <div class="project">
+            <a href="https://github.com/yodigi7/quiplash" style="color: blue;"><h2>Quiplash Clone</h2></a>
+            <div class="project-details">
+                <span class="tech-stack">Tech Stack:</span>
+                <ul>
+                    <li>java 8</li>
+                    <li>spring (MVC, JPA, Boot)</li>
+                    <li>angular 7</li>
+                    <li>vue</li>
+                    <li>axios</li>
+                    <li>h2</li>
+                </ul>
+                <span class="project-description">
+                    This project was inspired by the game Quiplash made by Jackbox Games.
+                    It has a Java Spring backend to store all of the game data on the server.
+                    The frontend consists of Angular/Vue to act as frontend where the data is either displayed or gathered from the user.
+                    Currently the frontend makes polling calls to the backend for updates on things such as the game phase when waiting on another player to complete a task.
+                    A way to optimize this would be to use either websockets to keep open for the duration of the game or to utilize server push which is new in HTTP 2.
+                    This project was built to handle multiple concurrent games with the option to use your own LAN server if necessary.
+                    <br>
+                    <a href="https://github.com/yodigi7/quiplash" style="color: blue;">https://github.com/yodigi7/quiplash</a>
+                </span>
+            </div>
+        </div>
+        <div class="project">
+            <a href="https://github.com/yodigi7/runescape-grand-exchange-data-analytics" style="color: blue;"><h2>Runescape Grandexchange Scraper</h2></a>
+            <div class="project-details">
+                <span class="tech-stack">Tech Stack:</span>
+                <ul>
+                    <li>python3</li>
+                    <li>sqlite3</li>
+                    <li>sklearn</li>
+                    <li>requests</li>
+                    <li>pyQt</li>
+                </ul>
+                <span class="project-description">
+                    When I was an avid Runescape player I enjoyed the idea of making gold off of "flipping" which was very similar to the way the stock market works.
+                    This interest intersected with my love for AI, ML, and programming in general.
+                    I decided to make a tool to make this easier with a custom GUI and a predictive AI in the background.
+                    The first step was to create a web scraper sending rest requests to the Runescape API for item prices and store in the database for record keeping.
+                    I then built a GUI using pyQt to display the database in a more user friendly way.
+                    I then setup a few simple AI algorithms with sklearn to try to predict the future trend of the item but unsurprisingly did not do very well.
+                    <br>
+                    <a href="https://github.com/yodigi7/runescape-grand-exchange-data-analytics" style="color: blue;">https://github.com/yodigi7/runescape-grand-exchange-data-analytics</a>
+                </span>
+            </div>
+        </div>
+        <div class="project">
+            <a href="https://github.com/yodigi7/InsuranceDatabase" style="color: blue;"><h2>Insurance Database</h2></a>
+            <div class="project-details">
+                <span class="tech-stack">Tech Stack:</span>
+                <ul>
+                    <li>python3</li>
+                    <li>sqlite3</li>
+                    <li>mysql</li>
+                    <li>vue</li>
+                </ul>
+                <span class="project-description">
+                    My father had always had trouble keeping his data together and organized in a nice format for his insurance company.
+                    In response to this I offered to build a database for him however I would need help understanding what his needs were.
+                    This was my first experience with a problem where I had to interface with a "customer" who had a problem but didn't speak my language so to speak.
+                    This helped me to be able to try to simplify things such that we were able to efficiently communicate and get the necessary requirements.
+                    This project was built with python as the backend to store the data in a mysql server.
+                    The frontend was built with Vue which was my first experience with a javascript framework.
+                    The frontend was purely for a CRUD UI for the database along with a few forms that would return a predefined complex query.
+                    <br>
+                    <a href="https://github.com/yodigi7/InsuranceDatabase" style="color: blue;">https://github.com/yodigi7/InsuranceDatabase</a>
+                </span>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
