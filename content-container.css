@@ -11,7 +11,7 @@ main {
     padding: 0 0;
     display: block;
     margin-top: 75px;
-    background-color: rgb(238, 238, 238, .8);
+    background-color: rgba(238, 238, 238, .8);
     color: var(--black-color);
 }
 
